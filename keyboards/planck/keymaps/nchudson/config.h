@@ -8,6 +8,10 @@
                                   SONG(DVORAK_SOUND) \
                                 }
 #endif
+#undef MATRIX_COL_PINS
+#undef BACKLIGHT_PIN
+#define MATRIX_COL_PINS { F1, F0, B7, C7, F4, F5, F6, F7, D4, D6, B4, D7 }
+#define BACKLIGHT_PIN B7
 
 /*
  * MIDI options
